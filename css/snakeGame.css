@@ -1,0 +1,24 @@
+.greenSq{
+    background-color: #89E548;
+}
+.lightGreenSq{
+    /*background-color: rgba(153, 255,80, 0.5);*/
+    background-color: #99ff50;
+}
+.fruit{
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.snake{
+    background-color: blue;
+    height: 23px;
+    width: 92px;
+    border-radius: 18%;
+}
+.eye{
+
+}
+

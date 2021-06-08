@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/snakeGame.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+
+        <title>Snake Game</title>
+    </head>
+    <body>
+        <!-- Button trigger modal -->
+        <div class="card text-center">
+            <div class="card-header">
+                Fun Games for children and Adults
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Snake & Apple</h5>
+                <img class="card-img-top" src="assets/images/snake-game.png" alt="Card image cap">
+                <p class="card-text">Snakes & Apples is a free thinking game for children and adults alike, where the
+                    goal is to guide the snake to eat all the apples in their correct order.</p>
+                    <button type="button" class="btn btn-primary d-inline" data-toggle="modal"
+                            data-target="#snakeModalCenter">
+                        Play
+                    </button>
+            </div>
+            <div class="card-footer text-muted">
+                Added Today
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="snakeModalCenter" tabindex="-1" role="dialog"
+             aria-labelledby="snakeModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header align-items-center">
+                        <span class="fruit mr-2"> </span>
+                        0
+                        <!--                        <span class="snake ml-4"> </span>-->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body py-0">
+                        <div id="board" class="m-4">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <script src="js/snakeGame.js"></script>
+    </body>
+</html>
