@@ -1,7 +1,8 @@
 $(".modal-header").css("background-color", "#5B9930")
 $(".modal-body").css("background-color", "#6BB238")
-
+$("#day").text(calculateDays());
 $("#board").append(addBoard());
+$("#board").append(addSnake());
 
 function addBoard() {
     let board = "";
@@ -24,8 +25,13 @@ function addBoard() {
     return board;
 }
 
+function calculateDays(){
+    return 1;
+}
 function addSnake() {
-
+    let snake = '';
+    snake = `<span id="snake" class="snake zindex-1"> </span>`;
+    return snake;
 }
 
 function addFruit() {

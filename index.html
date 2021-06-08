@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
               integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
               crossorigin="anonymous">
-
-        <title>Snake Game</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"/>
+        <title>Games - Snake Game</title>
     </head>
     <body>
         <!-- Button trigger modal -->
@@ -23,13 +24,13 @@
                 <img class="card-img-top" src="assets/images/snake-game.png" alt="Card image cap">
                 <p class="card-text">Snakes & Apples is a free thinking game for children and adults alike, where the
                     goal is to guide the snake to eat all the apples in their correct order.</p>
-                    <button type="button" class="btn btn-primary d-inline" data-toggle="modal"
-                            data-target="#snakeModalCenter">
-                        Play
-                    </button>
+                <button type="button" class="btn btn-primary d-inline" data-toggle="modal"
+                        data-target="#snakeModalCenter">
+                    Play
+                </button>
             </div>
             <div class="card-footer text-muted">
-                Added Today
+                Added <span id="day"></span> ago
             </div>
         </div>
 
@@ -41,7 +42,7 @@
                     <div class="modal-header align-items-center">
                         <span class="fruit mr-2"> </span>
                         0
-                        <!--                        <span class="snake ml-4"> </span>-->
+
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
